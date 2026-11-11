@@ -1,23 +1,73 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SwiftBasket Order Portal</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+<title>SwiftBasket Order Portal</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <h1>SwiftBasket Order Portal</h1>   
-        <p>Track your orders Quickly and Easily.</p>
-        </header>
-
-        <main>
-            <section>
-                <h2> Welcome to SwiftBasket</h2>
-                <p>Manage your online shopping ordes.</p>
-            </section>
-        </main>
-
-        <script src="script.js"></script>
+ 
+<header>
+<h1>SwiftBasket Order Portal</h1>
+<p>Track your orders quickly and easily.</p>
+</header>
+ 
+<nav>
+<a href="#home">Home</a>
+<a href="#dashboard">Dashboard</a>
+<a href="#tracking">Track Order</a>
+<a href="#orders">Orders</a>
+<a href="#support">Support</a>
+</nav>
+ 
+<main>
+<section id="home">
+<h2>Welcome to SwiftBasket</h2>
+<p>Your one-stop order management portal.</p>
+</section>
+ 
+    <section id="dashboard">
+<h2>Order Dashboard</h2>
+ 
+        <div class="dashboard-grid">
+<div class="stat-card">
+<h3>Total Orders</h3>
+<p id="totalOrders">0</p>
+</div>
+ 
+            <div class="stat-card">
+<h3>Delivered</h3>
+<p id="deliveredOrders">0</p>
+</div>
+ 
+            <div class="stat-card">
+<h3>Shipped</h3>
+<p id="shippedOrders">0</p>
+</div>
+ 
+            <div class="stat-card">
+<h3>Pending</h3>
+<p id="pendingOrders">0</p>
+</div>
+</div>
+</section>
+ 
+    <!-- TRACKING_SECTION -->
+ 
+    <!-- ORDERS_SECTION -->
+ 
+    <!-- SUPPORT_SECTION -->
+ 
+</main>
+ 
+<footer>
+<p>SwiftBasket © 2026 | Team Git Project</p>
+</footer>
+ 
+<script src="script.js"></script>
+<!-- FEATURE_SCRIPTS -->
+ 
 </body>
+</html>
